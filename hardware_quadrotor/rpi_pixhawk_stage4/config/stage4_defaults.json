@@ -1,0 +1,32 @@
+{
+  "default_mode": "audit-only",
+  "default_link_profile": "rpanion-udp-server",
+  "telemetry_endpoint": "udpin:127.0.0.1:14556",
+  "command_endpoint": null,
+  "enable_real_hardware_transmit": false,
+  "maximum_runtime_seconds": 5.0,
+  "telemetry_stale_seconds": 0.5,
+  "maximum_relative_height_m": 1.5,
+  "maximum_horizontal_radius_m": 0.5,
+  "maximum_horizontal_speed_mps": 0.1,
+  "maximum_vertical_speed_mps": 0.1,
+  "maximum_yaw_rate_radps": 0.08,
+  "control_frequency_hz": 10.0,
+  "zero_hold_seconds": 2.0,
+  "single_axis_displacement_m": 0.1,
+  "flight_wait_guided": {
+    "wait_timeout_s": 600.0,
+    "heartbeat_timeout_s": 1.5,
+    "min_airborne_alt_m": 1.0,
+    "min_abort_alt_m": 0.7,
+    "stable_hover_duration_s": 2.0,
+    "max_horizontal_speed_m_s": 0.5,
+    "max_vertical_speed_m_s": 0.3,
+    "max_roll_pitch_deg": 10.0,
+    "guided_settle_s": 0.5,
+    "max_control_duration_s": 5.0,
+    "zero_command_count": 3,
+    "zero_command_period_s": 0.1,
+    "one_shot": true
+  }
+}

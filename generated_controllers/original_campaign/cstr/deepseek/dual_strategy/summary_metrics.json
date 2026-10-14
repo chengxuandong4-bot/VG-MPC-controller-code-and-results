@@ -1,0 +1,1 @@
+{"benchmark":"cstr","mode":"dual_strategy_llm","T_actual":100,"best_gen":69,"best_q":0.22744814271560415,"baseline_q":0.081278057787838517,"seed_q":0.21886280164332939,"improvement_pct":179.83953960774488}

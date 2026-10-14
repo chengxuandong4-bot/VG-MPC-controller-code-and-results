@@ -1,0 +1,25 @@
+{
+  "id": "gen051_B",
+  "parent_id": "gen044_B",
+  "provenance": "hopeai_gpt_5_2_strict_patch",
+  "parameter_patch": {
+    "health_weight_scale": 1.115,
+    "allocation_reg": 0.1865
+  },
+  "schema_ok": true,
+  "schema_diag": "STRICT_SCHEMA_OK",
+  "hard_gate_ok": true,
+  "hard_gate_diag": "finite=1 failed=0 peak=1.000000 sat=0.296417/0.452750 raw=0.296583/0.500000",
+  "guardrails_ok": true,
+  "seed_ratios": [
+    1.0005688497944887,
+    1.000103606154715,
+    1.00083291318319,
+    0.517569119636214,
+    0.9902666671271352
+  ],
+  "normalized_score": 1.1414660491948658,
+  "legacy_score": 0.4024214651083662,
+  "selection_score_mode": "legacy_0p4",
+  "selection_score": 0.4024214651083662
+}

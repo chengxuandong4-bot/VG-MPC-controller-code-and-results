@@ -1,0 +1,7 @@
+numpy
+scipy
+matplotlib
+casadi
+optuna
+requests
+pytest

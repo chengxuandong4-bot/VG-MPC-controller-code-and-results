@@ -1,0 +1,13 @@
+{
+  "benchmark": "rampc",
+  "mode": "dual_strategy_llm",
+  "protocol": "hopeai_gpt_5_2",
+  "T_actual": 100,
+  "best_gen": 85,
+  "best_q": 0.37406002160800311,
+  "best_source": "A",
+  "baseline_q": 0.35113635821172895,
+  "seed_q": 0.36939415552520083,
+  "elapsed_seconds_last_invocation": 3951.768804304,
+  "completed_at": "2026-06-29 21:16:41"
+}

@@ -1,0 +1,19 @@
+{
+  "schema_version": "cstr_reduced_v1",
+  "benchmark": "cstr",
+  "variables": [
+    {"name":"horizon_max","type":"integer","lo":10,"hi":30,"baseline":20,"sampling":"uniform_integer"},
+    {"name":"Wy_base","type":"continuous","lo":0.3,"hi":10.0,"baseline":1.0,"sampling":"uniform_linear"},
+    {"name":"Wy_gain","type":"continuous","lo":0.0,"hi":5.0,"baseline":0.0,"sampling":"uniform_linear"},
+    {"name":"Wu","type":"continuous","lo":1e-6,"hi":1e-2,"baseline":1e-4,"sampling":"log_uniform"},
+    {"name":"Wdu_base","type":"continuous","lo":1e-5,"hi":1e-2,"baseline":1e-3,"sampling":"log_uniform"},
+    {"name":"Wdu_gain","type":"continuous","lo":0.0,"hi":5.0,"baseline":0.0,"sampling":"uniform_linear"},
+    {"name":"hessian_reg","type":"continuous","lo":1e-8,"hi":1e-3,"baseline":1e-6,"sampling":"log_uniform"}
+  ],
+  "fixed_structural_flags": {
+    "use_adaptive_horizon": false,
+    "use_disturbance_observer": false,
+    "use_param_adaptation": false,
+    "use_input_bias_adaptation": false
+  }
+}

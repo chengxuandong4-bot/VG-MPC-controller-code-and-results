@@ -1,0 +1,1 @@
+{"IAE_pos":1.483178703678554,"RMS_pos_error":0.24325149187688369,"max_pos_error":1.5338272205643166,"final_pos_error":1.5338272205643166,"IAE_att":1.1935101327061337,"control_energy":0.97598763339095784,"avg_solve_time_ms":2.230297583583583,"max_solve_time_ms":10.512838,"saturation_rate":0.009,"q_score":0.65514782891390921,"s_score":0,"v_penalty":0,"accepted":true,"updated":true}

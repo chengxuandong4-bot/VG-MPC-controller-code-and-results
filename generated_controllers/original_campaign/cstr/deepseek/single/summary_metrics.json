@@ -1,0 +1,1 @@
+{"benchmark":"cstr","mode":"single_llm","T_actual":200,"best_gen":196,"best_q":0.1196601436252494,"baseline_q":0.0841167040721201,"improvement_pct":42.254912321166337}

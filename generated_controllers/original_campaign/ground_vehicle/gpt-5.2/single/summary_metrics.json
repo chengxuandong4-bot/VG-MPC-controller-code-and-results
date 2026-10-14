@@ -1,0 +1,13 @@
+{
+  "benchmark": "rampc",
+  "mode": "single_llm",
+  "protocol": "hopeai_gpt_5_2",
+  "T_actual": 200,
+  "best_gen": 84,
+  "best_q": 0.377413328534153,
+  "best_source": "S",
+  "baseline_q": 0.35113635821172895,
+  "seed_q": 0.36939415552520083,
+  "elapsed_seconds_last_invocation": 18.579344663,
+  "completed_at": "2026-06-29 19:42:51"
+}

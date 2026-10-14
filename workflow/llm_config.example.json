@@ -1,0 +1,7 @@
+{
+  "provider": "deepseek",
+  "model": "deepseek-chat",
+  "temperature": 0.3,
+  "max_tokens": 512,
+  "api_key_env": "LLM_API_KEY"
+}

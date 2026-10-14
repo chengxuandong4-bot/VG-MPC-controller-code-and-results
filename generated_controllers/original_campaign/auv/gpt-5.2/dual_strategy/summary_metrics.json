@@ -1,0 +1,20 @@
+{
+  "benchmark": "auv",
+  "mode": "dual_strategy_llm",
+  "selection_score_mode": "legacy_0p4",
+  "T_actual": 100,
+  "candidate_count": 200,
+  "best_gen": 51,
+  "best_source": "B",
+  "best_q": 0.4024214651083662,
+  "seed_q": 0.4024120425690288,
+  "best_normalized_diagnostic_score": 1.1414660491948658,
+  "protocol_change_generation": 32,
+  "api_calls": 200,
+  "http_retries": 7,
+  "parse_retries": 0,
+  "wrong_model_count": 0,
+  "accepted_candidates": 69,
+  "incumbent_updates": 3,
+  "complete": true
+}

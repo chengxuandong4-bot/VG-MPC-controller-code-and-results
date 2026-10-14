@@ -1,0 +1,1 @@
+{"benchmark":"drone","mode":"dual_obj_llm","best_gen":34,"best_q":0.63356589963165455,"baseline_q":0.50248682390171584,"provider":"hopeai","model":"gpt-5.2","seed":42,"benchmark_source":"<WORKSPACE_ROOT>/26.6第二轮仿真/DeepSeek/benchmark_lightweight_drone","elapsed_s":4912.806488616}

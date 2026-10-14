@@ -1,0 +1,8 @@
+{
+  "timestamp": "2026-08-03 17:39:38",
+  "matlab_version": "26.1.0.3276743 (R2026a) Update 3",
+  "baseline_q": 0.087794089277542509,
+  "reference_candidate_q": 0.12025461074888752,
+  "reference_candidate_accepted": true,
+  "status": "passed"
+}

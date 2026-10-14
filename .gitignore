@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+*.mat
+*.log
+*.tmp
+*.bak*
+.DS_Store
+.env
+.venv/
+results/
+generation_snapshots/

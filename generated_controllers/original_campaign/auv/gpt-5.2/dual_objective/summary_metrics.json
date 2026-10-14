@@ -1,0 +1,17 @@
+{
+  "benchmark": "auv",
+  "mode": "dual_obj_v2_hybrid_gen80",
+  "protocol": "gpt_5_2_generations_1_79_then_human_guided_seed_then_gpt_5_2_80_100",
+  "T_actual": 100,
+  "hybrid_seed_name": "B030_FF35",
+  "hybrid_seed_q": 0.40260239232498263,
+  "hybrid_seed_generation": 80,
+  "hybrid_seed_llm_api_calls": 0,
+  "best_gen": 80,
+  "best_q": 0.40260239232498263,
+  "best_source": "human_guided_B030_FF35",
+  "baseline_q": 0.26656229886498473,
+  "completed_at": "2026-06-29 11:27:06",
+  "elapsed_seconds_generation_80_100": 610,
+  "elapsed_seconds_last_invocation": 7.35305316
+}

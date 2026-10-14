@@ -1,0 +1,73 @@
+{
+  "n_paired_blocks": 10,
+  "data_precision_decimals": 4,
+  "mode_summaries": {
+    "single": {
+      "mean": 0.6242,
+      "sample_sd": 0.010595491703759882
+    },
+    "dual_objective": {
+      "mean": 0.64635,
+      "sample_sd": 0.020241170914747
+    },
+    "dual_strategy": {
+      "mean": 0.64162,
+      "sample_sd": 0.01852588579378715
+    }
+  },
+  "friedman": {
+    "df": 2,
+    "statistic": 11.400000000000006,
+    "p": 0.0033459654574712634
+  },
+  "prespecified_contrasts": {
+    "dual_objective_minus_single": {
+      "differences": [
+        0.023600000000000065,
+        0.019199999999999995,
+        0.020999999999999908,
+        0.0031000000000001027,
+        0.006900000000000017,
+        0.01990000000000003,
+        0.03079999999999994,
+        0.019899999999999918,
+        0.031399999999999983,
+        0.045700000000000074
+      ],
+      "mean_difference": 0.022150000000000003,
+      "sample_sd_difference": 0.01216874411487616,
+      "median_difference": 0.020449999999999968,
+      "positive_blocks": 10,
+      "n_nonzero": 10,
+      "w_positive": 55.0,
+      "w_negative": 0,
+      "p_raw": 0.001953125,
+      "rank_biserial": 1.0,
+      "p_holm": 0.00390625
+    },
+    "dual_strategy_minus_single": {
+      "differences": [
+        0.0242,
+        0.01419999999999999,
+        0.012699999999999934,
+        -0.00039999999999995595,
+        0.03839999999999999,
+        0.034399999999999986,
+        0.005900000000000016,
+        -0.0052000000000000934,
+        0.023399999999999976,
+        0.026600000000000068
+      ],
+      "mean_difference": 0.01741999999999999,
+      "sample_sd_difference": 0.014487757283689959,
+      "median_difference": 0.018799999999999983,
+      "positive_blocks": 8,
+      "n_nonzero": 10,
+      "w_positive": 52.0,
+      "w_negative": 3.0,
+      "p_raw": 0.009765625,
+      "rank_biserial": 0.8909090909090909,
+      "p_holm": 0.009765625
+    }
+  }
+}

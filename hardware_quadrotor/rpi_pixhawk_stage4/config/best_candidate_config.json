@@ -1,0 +1,40 @@
+{
+    "schema_version":  "f450_best_candidate_v1",
+    "candidate_id":  "candidate_097",
+    "k_i_z":  1.5,
+    "hover_bias_abs_limit":  6,
+    "k_i_xy":  0.1,
+    "xy_bias_abs_limit":  0.2,
+    "search_mode":  "full",
+    "gate_eligible":  true,
+    "timestamp":  "2026-07-09T17:28:21",
+    "full_sweep_metrics":  {
+                               "candidate_id":  "candidate_097",
+                               "k_i_z":  1.5,
+                               "hover_bias_abs_limit":  6,
+                               "k_i_xy":  0.1,
+                               "xy_bias_abs_limit":  0.2,
+                               "pass_rate":  0.75308641975308643,
+                               "mean_RMS_pos_error":  0.65678310556941522,
+                               "worst_RMS_pos_error":  1.04880912852926,
+                               "worst_max_pos_error":  1.93888750461326,
+                               "worst_final_pos_error":  1.12235726545016,
+                               "worst_max_tilt_deg":  14.6648191698803,
+                               "worst_thrust_saturation_rate":  0,
+                               "worst_moment_saturation_rate":  0,
+                               "fallback_rate_max":  0,
+                               "pass_cases":  183,
+                               "fail_cases":  60,
+                               "result_csv":  "C:\\Users\\zhang\\Desktop\\TinyMPC-style lightweight linear MPC\\TinyMPC-style lightweight linear MPC\\results_f450_auto_tuning\\full_candidates\\candidate_097\\robustness_table.csv",
+                               "score":  0.42695088107700963,
+                               "scoring_formula_version":  "f450_score_v1"
+                           },
+    "interface_defaults":  {
+                               "interface_version":  "candidate097_outer_loop_behavioral_equivalence_v1",
+                               "horizontal_position_gain_per_s":  0.6,
+                               "vertical_position_gain_per_s":  0.5,
+                               "yaw_gain_per_s":  0.4,
+                               "vertical_integral_limit_mps":  0.2
+                           },
+    "interface_defaults_source":  "sitl_outer_loop_stage/python_controller/controller_interface_defaults.json"
+}
